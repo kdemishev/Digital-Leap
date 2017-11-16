@@ -1,0 +1,64 @@
+﻿@model dynamic
+
+@{
+	ViewBag.Title = "Capabilities";
+	Layout = "~/Views/Shared/_ContentLayout.cshtml";
+	ViewBag.ContainerClass = "capabilities-banner";
+}
+
+<div class="container content-margin capabilities-list">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 capabilities-item ">
+			<div class="panel-dl">
+				<img class="icon-copabilities" src="../../img/content_migration-01.svg" alt="">
+				<h3>Content Migration</h3>
+				<ul class="list-mark-v">
+					<li>Storage that’s lightning fast</li>
+					<li>Accelerate your every move</li>
+					<li>More colors than ever</li>
+					<li>Double the speed and bandwidth</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-3 capabilities-item">
+			<div class="panel-dl">
+				<img class="icon-copabilities" src="../../img/solution_audit-01.svg" alt="">
+				<h3>Solution Audit</h3>
+				<ul class="list-mark-v">
+					<li>Storage that’s lightning fast</li>
+					<li>Accelerate your every move</li>
+					<li>More colors than ever</li>
+					<li>Double the speed and bandwidth</li>
+				</ul>
+				<hr>
+				<div class="text-center">
+					<button onclick="window.location.href = '@Url.Action("ChoosePlan", "Features")'" type="button" class="btn btn-primary btn-lg blue-btn">View Plans</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-3 capabilities-item">
+			<div class="panel-dl">
+				<img class="icon-copabilities" src="../../img/upgrade-01.svg" alt="">
+				<h3>Upgade</h3>
+				<ul class="list-mark-v">
+					<li>Storage that’s lightning fast</li>
+					<li>Accelerate your every move</li>
+					<li>More colors than ever</li>
+					<li>Double the speed and bandwidth</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-3 capabilities-item">
+			<div class="panel-dl">
+				<img class="icon-copabilities" src="../../img/integration-01.svg" alt="">
+				<h3>Integration</h3>
+				<ul class="list-mark-v">
+					<li>Storage that’s lightning fast</li>
+					<li>Accelerate your every move</li>
+					<li>More colors than ever</li>
+					<li>Double the speed and bandwidth</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

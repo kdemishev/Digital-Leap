@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DigitalLeap/DigitalLeap.Web/bin
+/DigitalLeap/.vs
+/DigitalLeap/DigitalLeap.Web/obj/Debug
+/DigitalLeap/DigitalLeap.Web/Web.Release.config
+/DigitalLeap/DigitalLeap.Web/Web.Debug.config
+/.vs
+/DigitalLeap/packages
