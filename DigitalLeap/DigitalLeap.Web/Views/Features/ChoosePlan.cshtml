@@ -1,0 +1,54 @@
+﻿@model dynamic
+
+@{
+	ViewBag.Title = "Choose a plan";
+	Layout = "~/Views/Shared/_ContentLayout.cshtml";
+	ViewBag.ContainerClass = "choose-plan-banner";
+}
+
+<div class="container content-margin choose-paln">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-6 offset-lg-2 col-lg-4 choose-paln-item">
+			<div class="panel-dl">
+				<div class="plan-name">Basic</div>
+				<div class="price-plan">
+					<div class="dollar">$</div>
+					<div class="price">0</div>
+					<div class="month">/ mo</div>
+				</div>
+				<hr>
+				<ul class="list-mark-v">
+					<li>Storage that’s lightning fast</li>
+					<li>Accelerate your every move</li>
+					<li>More colors than ever</li>
+					<li class="disable-option">Double the speed and bandwidth</li>
+				</ul>
+				<hr>
+				<div class="text-center">
+					<button type="button" class="btn btn-outline-primary btn-lg blue-btn-outline">Choose Plan</button>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-4 choose-paln-item ">
+			<div class="panel-dl">
+				<div class="plan-name">Premium</div>
+				<div class="price-plan">
+					<div class="dollar">$</div>
+					<div class="price">49</div>
+					<div class="month">/ mo</div>
+				</div>
+				<hr>
+				<ul class="list-mark-v">
+					<li>Storage that’s lightning fast</li>
+					<li>Accelerate your every move</li>
+					<li>More colors than ever</li>
+					<li>Double the speed and bandwidth</li>
+				</ul>
+				<hr>
+				<div class="text-center">
+					<button type="button" class="btn btn-primary btn-lg blue-btn">Choose Plan</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

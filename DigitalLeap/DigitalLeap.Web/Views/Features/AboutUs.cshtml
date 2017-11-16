@@ -1,0 +1,56 @@
+﻿@model dynamic
+
+@{
+	ViewBag.Title = "WHO WE ARE";
+	Layout = "~/Views/Shared/_ContentLayout.cshtml";
+}
+@section Banner
+{
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="front-banner">
+					<div class="main-text-banner">
+						<div class="vertical-text">
+							Digital Leap 2017
+						</div>
+						<h1>Who we are</h1>
+						<p>We are Sitecore oriented digital agency which helps our clients to take comprehensive benefits from the Sitecore platform and make sure that their solutions meet their business expectations.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+}
+
+<div class="container fp-capabilities">
+	<div class="row">
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-3 capabilities-item">
+			<img class="icon-copabilities" src="../../img/content_migration-01.svg" alt="">
+			<h3>Content Migration</h3>
+			<p>Some short text about capabilities Digital Leap. Make your own decision.</p>
+		</div>
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-3 capabilities-item">
+			<img class="icon-copabilities" src="../../img/solution_audit-01.svg" alt="">
+			<h3>Solution Audit</h3>
+			<p>Some short text about capabilities Digital Leap. Make your own decision.</p>
+		</div>
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-3 capabilities-item">
+			<img class="icon-copabilities" src="../../img/upgrade-01.svg" alt="">
+			<h3>Upgade</h3>
+			<p>Some short text about capabilities Digital Leap. Make your own decision.</p>
+		</div>
+		<div class="col-xs-1 col-sm-6 col-md-6 col-lg-3 capabilities-item">
+			<img class="icon-copabilities" src="../../img/integration-01.svg" alt="">
+			<h3>Integration</h3>
+			<p>Some short text about capabilities Digital Leap. Make your own decision.</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="text-center">
+				<button onclick="window.location.href = '@Url.Action("Capabilities", "Features")'" type="button" class="btn btn-primary btn-lg blue-btn">View Plans</button>
+			</div>
+		</div>
+	</div>
+</div>

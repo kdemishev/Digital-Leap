@@ -1,0 +1,407 @@
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6a7889;
+    background: #f9fafa;
+}
+
+/*HEADINGS
+==============================================================================*/
+h3, h4, h5, h4{
+    color: #48525d;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+h3{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/*LINKS
+==============================================================================*/
+a{
+    outline: none;
+}
+
+/*BUTTONS
+==============================================================================*/
+.blue-btn{
+    border-radius: 50px;
+    background: #0f70e7;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 22px;
+    box-shadow: 0px 15px 25px rgba(15,112,231,0.25);
+}
+
+.blue-btn-outline{
+    border-radius: 50px;
+    background: #fff;
+    color: #0f70e7;
+    border: 1px solid; 
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 10px 22px;
+    box-shadow: 0px 15px 25px rgba(15,112,231,0.25);
+}
+.blue-btn-outline:hover {
+    color: #fff;
+    background-color: #0f70e7;
+    border-color: #0f70e7;
+}
+
+
+/*NAVYGATION
+==============================================================================*/
+.nav-line-bg{
+    max-width: 1135px;
+    margin: 25px auto 20px auto;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0f70e7;
+    letter-spacing: 0.040em;
+    padding-right: 2.5rem
+}
+
+.navbar-light .navbar-nav .nav-item:last-child .nav-link{
+    padding-right: 0rem
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #323a45;
+}
+
+
+
+/*TOP BANNER FRONTPAGE
+==============================================================================*/
+.front-banner{
+    
+    color: #fff;
+    background: #0a1320 url('../img/main_image.png');
+    background-position: center top;
+    background-size: cover;
+    min-height: 379px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    padding-top: 75px;
+    padding-bottom: 70px;
+    box-shadow: 0px 15px 35px rgba(15,112,231,0.20);
+}
+
+.front-banner .main-text-banner{
+    position: relative;
+    margin-left: 56px;
+    border-left: 1px solid #0f70e7;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.front-banner .main-text-banner .vertical-text{
+    position: absolute;
+    top: 90px;
+    left: -130px;
+    transform: rotate(-90deg);
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 8.5px;
+    opacity: 0.5;
+}
+
+.front-banner .main-text-banner h1{
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #0f70e7;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.front-banner .main-text-banner p{
+    font-size: 17px;
+    line-height: 26px;
+    max-width: 490px;
+    margin-top: 32px
+}
+
+/*BANNERS
+==============================================================================*/
+.capabilities-banner{
+    background: #0a1320 url('../img/capabilities.png');
+    background-position: center top;
+    background-size: cover;
+    min-height: 190px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.choose-plan-banner{
+    background: #0a1320 url('../img/choose_a_plan.png');
+    background-position: center top;
+    background-size: cover;
+    min-height: 190px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contact-banner{
+    background: #0a1320 url('../img/contact_us.png');
+    background-position: center top;
+    background-size: cover;
+    min-height: 190px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.title-banner h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0f70e7;
+    font-size: 38px;
+}
+
+
+/*CONTENT
+==============================================================================*/
+
+.content-margin{
+    margin-top: -110px; 
+}
+
+/*panel*/
+.panel-dl{
+    padding: 40px 20px 30px 20px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 3px 9px rgba(15,112,231,0.15);
+    min-height: 300px;
+    margin-bottom: 30px
+}
+
+/*list-mark-v*/
+
+.list-mark-v{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list-mark-v li{
+    margin: 0 0 0 0;
+    padding: 0px 0 10px 27px;
+    line-height: 20px;
+    background: url('../img/check_V-01.svg') no-repeat;
+    background-size: 15px auto;
+    background-position: 0px 5px;
+}
+
+.list-mark-v li.disable-option{
+    margin: 0 0 0 0;
+    padding: 0px 0 10px 27px;
+    line-height: 20px;
+    background: url('../img/check_V-gray.svg') no-repeat;
+    background-size: 15px auto;
+    background-position: 0px 5px;
+    color: #b1b9c4;
+    text-decoration: line-through;
+}
+
+/*frontpage capabilitiest*/
+.fp-capabilities{
+    margin-bottom: 60px;
+}
+
+.fp-capabilities .capabilities-item{
+    padding: 40px 40px 30px 40px;
+}
+
+.icon-copabilities{
+    width: 50px;
+    margin-bottom: 35px;
+}
+
+/*capabilities section
+------------------------*/
+.capabilities-list{
+margin-bottom: 0;
+}
+
+.capabilities-list .capabilities-item{
+    
+}
+
+.capabilities-list hr{
+
+    margin-bottom: 25px; 
+}
+
+/*choose a plan section
+------------------------*/
+
+.choose-paln{
+        
+}
+
+.choose-paln-item{
+    
+}
+
+.plan-name{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #4f5362;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+.price-plan{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price-plan .dollar{
+    display: inline-block;
+    font-size: 24px;
+    position: relative;
+    top: -20px;
+}
+
+.price-plan .price{
+    display: inline-block;
+    color: #0f70e7;
+    font-size: 52px;
+}
+
+.price-plan .month{
+    display: inline-block;
+    font-size: 24px;
+}
+
+
+/*contact*/
+.contact-form{
+    
+}
+
+.contact-form .icon{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form .icon img{
+    width: 50px;
+    height: auto;
+}
+
+
+.contact-form form .form-group label{
+    color: #48525d;
+    font-weight: 700;
+}
+
+.contact-form form .form-group{
+    margin-bottom: 20px;
+}
+
+.contact-form form .text-center{
+    margin-top: 25px;
+}
+
+
+
+/*FOOTER
+==============================================================================*/
+
+.footer-con{
+    margin-top: 30px;
+}
+
+.footer-con hr{
+    background: #e2e6eb;
+}
+
+.footer-con .copyright{
+    font-size: 12px;
+    color: #6a7889;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+
+/*ANIMATION
+==============================================================================*/
+
+.front-banner .main-text-banner h1 {
+  animation: fadein_h1 800ms;
+  animation-timing-function: ease-out;
+    
+}
+@keyframes fadein_h1 {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+.front-banner .main-text-banner p {
+  animation: fadein_p 3s;
+  animation-timing-function: ease-out;
+}
+@keyframes fadein_p {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+.title-banner h2{
+  animation: fadein_title 800ms;
+  animation-timing-function: ease-out;
+}
+@keyframes fadein_title {
+  from { opacity: 0}
+  to   { opacity: 1}
+}
+
+/*RESPONSIVE DESIGN
+==============================================================================*/
+/*frontpage banner*/
+
+@media (max-width: 576px){
+.front-banner{
+    margin-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+    
+    .front-banner .main-text-banner{
+    margin-left: 0px;
+    border-left: 0px solid #0f70e7;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.front-banner .main-text-banner .vertical-text{
+    display: none;
+} 
+.front-banner .main-text-banner h1{
+    font-size: 5rem;
+    line-height: 5rem;
+
+}
+}
+
+
