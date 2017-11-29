@@ -1,0 +1,10 @@
+﻿@model string
+@{
+	var isSuccessful = string.IsNullOrEmpty(Model);
+	var alertAttribute = isSuccessful ? "alert alert-success" : "alert alert-danger";
+	var prefixText = isSuccessful ? "Thank you!" : "Oops!";
+	var text = isSuccessful ? "Your information was saved." : Model;
+}
+<div class="@alertAttribute" role="alert">
+	<strong>@prefixText</strong>&nbsp;@text
+</div>
