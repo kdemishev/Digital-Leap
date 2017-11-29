@@ -9,3 +9,10 @@
 /DigitalLeap/DigitalLeap.Web/Web.Debug.config
 /.vs
 /DigitalLeap/packages
+/DigitalLeap/DigitalLeap.Domain/bin
+/DigitalLeap/DigitalLeap.Domain/obj
+/DigitalLeap/DigitalLeap.Repositories/bin
+/DigitalLeap/DigitalLeap.Repositories/obj
+/DigitalLeap/DigitalLeap.Services/bin
+/DigitalLeap/DigitalLeap.Services/obj
+/DigitalLeap/DigitalLeap.Web/obj/Release
