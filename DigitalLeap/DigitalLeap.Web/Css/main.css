@@ -228,7 +228,7 @@ a{
 }
 
 .fp-capabilities .capabilities-item{
-    padding: 20px;
+    padding: 40px 40px 30px 40px;
 }
 
 .icon-copabilities{
@@ -402,6 +402,31 @@ margin-bottom: 0;
     line-height: 5rem;
 
 }
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+ 
+.field-validation-valid {
+    display: none;
+}
+ 
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+ 
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+ 
+.validation-summary-errors {
+    color: #b94a48;
+}
+ 
+.validation-summary-valid {
+    display: none;
 }
 
 
