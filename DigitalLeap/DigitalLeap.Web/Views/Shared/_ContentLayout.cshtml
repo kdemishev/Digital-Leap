@@ -33,10 +33,7 @@
 				<li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "AboutUs" ? "active" : "")">
 					@Html.ActionLink("Agency", "AboutUs", "Features", null, new { @class = "nav-link" })
 				</li>
-				<li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "Capabilities" ? "active" : "")">
-					@Html.ActionLink("Capabilities", "Capabilities", "Features", null, new {@class = "nav-link"} )
-				</li>
-				<li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "ContactUs" ? "active" : "")">
+				<li class="nav-item @(ViewContext.RouteData.Values["Action"].ToString() == "ContactUs" ? "active" : "")>
 					@Html.ActionLink("Contact Us", "ContactUs", "Features", null, new { @class = "nav-link" })
 				</li>
 			</ul>
