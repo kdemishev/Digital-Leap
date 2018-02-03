@@ -228,12 +228,31 @@ a{
 }
 
 .fp-capabilities .capabilities-item{
-    padding: 40px 40px 30px 40px;
+    margin-bottom: 25px;
+}
+
+.fp-capabilities .capabilities-item p{
+    margin-right: 20px;
+    float: none;
+    clear: both;
+}
+
+.fp-capabilities .capabilities-item h3{
+    margin-top: 20px;
+    
+}
+
+.fp-capabilities .capabilities-item .icon-copabilities{
+    width: 50px;
+    margin-bottom: 10px;
+    margin-right:20px;
+    float: left;
+    
 }
 
 .icon-copabilities{
     width: 50px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 /*capabilities section
